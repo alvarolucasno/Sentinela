@@ -1,7 +1,7 @@
 # Sentinela
 
 # Instalando
-sudo apt install python3-pip python3.7 python3.7-dev python3.7-venv gcc default-libmysqlclient-dev libssl-dev nginx curl
+sudo apt install python3-pip python3 python3-dev python3-venv gcc default-libmysqlclient-dev libssl-dev nginx curl
 
 # Atualizando pip e demais
 python3.7 -m pip install --upgrade pip setuptools wheel --user
