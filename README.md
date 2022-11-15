@@ -4,9 +4,11 @@
 sudo apt install python3-pip python3 python3-dev python3-venv gcc default-libmysqlclient-dev libssl-dev nginx curl
 
 # Atualizando pip e demais
-python3.7 -m pip install --upgrade pip setuptools wheel --user
+python3 -m pip install --upgrade pip setuptools wheel --user
+
 export PATH="/home/$USER/.local/bin:$PATH"
-python3.7 -m pip install pipenv --user
+
+python3 -m pip install pipenv --user
 
 # Criar pasta
 mkdir agenda
@@ -14,6 +16,6 @@ mkdir agenda
 cd agenda
 
 # Criando o ambiente virtual
-python3.7 -m venv venv
+python3 -m venv venv
 source venv/bin/activate
-python3.7 -m pip install django gunicorn pillow
+python3 -m pip install django gunicorn pillow
