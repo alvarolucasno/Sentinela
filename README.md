@@ -12,10 +12,13 @@ python3 -m pip install pipenv --user
 
 # Criar pasta
 mkdir agenda
+
 # Entrar na pasta
 cd agenda
 
 # Criando o ambiente virtual
 python3 -m venv venv
+
 source venv/bin/activate
+
 python3 -m pip install django gunicorn pillow
