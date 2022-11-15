@@ -11,10 +11,10 @@ export PATH="/home/$USER/.local/bin:$PATH"
 python3 -m pip install pipenv --user
 
 # Criar pasta
-mkdir agenda
+mkdir sentinela
 
 # Entrar na pasta
-cd agenda
+cd sentinela
 
 # Criando o ambiente virtual
 python3 -m venv venv
