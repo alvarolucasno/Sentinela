@@ -22,3 +22,16 @@ python3 -m venv venv
 source venv/bin/activate
 
 python3 -m pip install django gunicorn pillow
+
+# Clonando repositório
+git clone xxxxxxxxxxx
+
+# Passos seguintes
+
+pip install -r dependencias.txt
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py runserver
